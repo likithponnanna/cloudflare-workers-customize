@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "description": "A template for kick starting a Cloudflare Workers project",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write '**/*.{js,css,json,md}'"
@@ -13,7 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "@cloudflare/kv-asset-handler": "0.0.2",
-    "accept-language-parser": "^1.5.0"
+    "accept-language-parser": "^1.5.0",
+    "serverless-cloudflare-workers": "^1.2.0"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
