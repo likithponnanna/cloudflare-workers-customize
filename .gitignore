@@ -8,4 +8,5 @@ wasm-pack.log
 worker/
 node_modules/
 .cargo-ok
-*.idea/workspace.xml
+/.idea
+.DS_Store
